@@ -10,7 +10,7 @@
       background(#00FFDA);
       for(int x = 0; x < 660; x = x + 60){
         for(int y = 0; y < 660; y = y + 60){
-          Die Dice = new Die(x+50, y);
+          Die Dice = new Die(x + 50, y);
           Dice.show();
           Dice.roll();
           Dice.total();
