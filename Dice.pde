@@ -13,7 +13,7 @@
           Die Dice = new Die(x + 50, y);
           Dice.show();
           Dice.roll();
-          Dice.total();
+          Dice.Total();
         }
       }
   }
@@ -85,7 +85,7 @@
           fill(#FF6FF6);
           rect(dieX, dieY, 49, 49, 10);
       }
-      void total()
+      void Total()
       {
       stroke(#000000);
       fill(#000000);
